@@ -1,0 +1,102 @@
+{
+  "widgets": [
+    {
+      "widgetId": "header",
+      "name": "Header Widget",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 800,
+        "height": 90
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 1,
+      "instanceId": "widget_1791997721324_0"
+    },
+    {
+      "widgetId": "ascii-text",
+      "name": "Ascii-text Widget",
+      "position": {
+        "x": 0,
+        "y": 106
+      },
+      "size": {
+        "width": 800,
+        "height": 120
+      },
+      "config": {
+        "customText": "WE LOVE ARCH LINUX",
+        "fontSize": 14,
+        "asciiLines": [
+          "██    ██ ████████      ██        ▄████▄  ██    ██ ████████       ▄████▄  ███████▄  ▄████▄  ██    ██      ██       ████████ ██    ██ ██    ██ ██    ██",
+          "██    ██ ██            ██       ██    ██ ██    ██ ██            ██    ██ ██    ██ ██    ▀▀ ██    ██      ██          ██    ███   ██ ██    ██  ▀████▀ ",
+          "██ ▄▄ ██ ██████        ██       ██    ██ ██    ██ ██████        ████████ ███████▀ ██       ████████      ██          ██    ██▀█  ██ ██    ██    ██   ",
+          "████████ ██            ██       ██    ██  ▀████▀  ██            ██    ██ ██  ▀██▄ ██    ▄▄ ██    ██      ██          ██    ██ ▀█ ██ ██    ██  ▄████▄ ",
+          "██    ██ ████████      ████████  ▀████▀     ▀▀    ████████      ██    ██ ██    ██  ▀████▀  ██    ██      ████████ ████████ ██   ███  ▀████▀  ██    ██"
+        ],
+        "charset": "default",
+        "cols": 28,
+        "detail": "low",
+        "animationType": "typewriter",
+        "animationPreviewKey": 1
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2,
+      "instanceId": "widget_1791997721324_1"
+    },
+    {
+      "widgetId": "terminal-info",
+      "name": "Terminal-info Widget",
+      "position": {
+        "x": 0,
+        "y": 242
+      },
+      "size": {
+        "width": 800,
+        "height": 280
+      },
+      "config": {
+        "headerColor": "#00ff88",
+        "labelColor": "#55ffff",
+        "dotColor": "#2e4c38",
+        "valueColor": "#e6edf3",
+        "statsValColor": "#00ff88",
+        "dividerColor": "#1a2e22",
+        "showGists": true,
+        "showOrgs": true,
+        "showTwitter": true,
+        "showEmail": true,
+        "showHighlights": true,
+        "showPronouns": true,
+        "showStatus": true,
+        "showFollowing": true,
+        "showJoined": true,
+        "showTimezone": true,
+        "showAchievements": true,
+        "customUptime": ""
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3,
+      "instanceId": "widget_1791997721324_2"
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#0a0f0a",
+    "textColor": "#00ff41",
+    "accentColor": "#00ff41",
+    "borderColor": "#1a3a1a",
+    "fontFamily": "Roboto",
+    "borderRadius": 0,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "hacker",
+    "transparentBackground": true
+  },
+  "templateId": "hacker"
+}
